@@ -1,0 +1,121 @@
+main {
+  width: 800px;
+  margin:0 auto;
+}
+.bannercontainer {
+  position: relative;
+  background: #393939;
+  width: 1280px;
+  margin:0 auto;
+  padding-top: 5px;
+}
+.space {
+  height: 205px;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 0px;
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 50px;
+  color: #393939;
+}
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  margin: 0;
+  margin-left: 40px;
+  margin-right: 0px;
+  font-weight: 300;
+  font-size: 48px;
+}
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  color: #393939;
+  margin-bottom: 0px;
+  font-size:36px;
+  font-weight: 300;
+  padding-bottom: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h4 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 50px;
+  color: #393939;
+}
+h5 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 3px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #393939;
+}
+h6 {
+  font-family: 'Merriweather', serif;;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #393939;
+}
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #393939;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.bigger {
+  font-size: 20px;
+}
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #393939;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+blockquote::before {
+  content: '“';
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 300;
+  font-size: 140px;
+  line-height: px;
+  position: absolute;
+  top: -38px;
+  left: 0px;
+}
+blockquote {
+  background: #707070;
+  vertical-align: center;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.line {
+  height: 5px;
+  width: 100%;
+  background: #393939;
+  margin-top: 50px;
+}
+.banner {
+  width:1280px;
+  position: absolute;
+  z-index: -1;
+}
